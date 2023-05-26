@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>window._wca = window._wca || [];</script>
+
+<title>Gecein IT Technician</title>
+
+<link rel='dns-prefetch' href='http://stats.wp.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Gecein IT Technician &raquo; Feed" href="index.php/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Gecein IT Technician &raquo; Comments Feed" href="index.php/comments/feed/index.html" />
+		<!-- This site uses the Google Analytics Oleh MonsterInsights plugin v8.14.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="http://www.googletagmanager.com/gtag/js?id=UA-101227924-1"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.14.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-101227924-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-101227924-1', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getOlehName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics Oleh MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gecein\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsOlehTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min41a3.css?ver=5.8' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='wp-includes/js/mediaelement/mediaelementplayer-legacy.min08e1.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='wp-includes/js/mediaelement/wp-mediaelement.min41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style9e2d.css?ver=7.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style9e2d.css?ver=7.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles7661.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/public/assets/css/rs68993.css?ver=6.3.9' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='twenty20-style-css'  href='wp-content/plugins/twenty20/assets/css/twenty200322.css?ver=1.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoute6df.css?ver=6.5.0' type='text/css' media='all' />
+<style id='woocommerce-layout-inline-css' type='text/css'>
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreene6df.css?ver=6.5.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='wp-content/plugins/woocommerce/assets/css/woocommercee6df.css?ver=6.5.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='bootstrap-css'  href='wp-content/themes/ostrya/assets/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-font-awesome-css'  href='wp-content/themes/ostrya/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl.carousel-css'  href='wp-content/themes/ostrya/assets/css/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='wp-content/themes/ostrya/assets/js/prettyPhoto/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='wp-content/themes/ostrya/assets/css/animate.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-base-css'  href='wp-content/themes/ostrya/assets/css/base.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-widgets-css'  href='wp-content/themes/ostrya/assets/css/widgets.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-shortcodes-css'  href='wp-content/themes/ostrya/assets/css/shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-woocommerce-css'  href='wp-content/themes/ostrya/assets/css/woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-layout-css'  href='wp-content/themes/ostrya/assets/css/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-responsive-css'  href='wp-content/themes/ostrya/assets/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ostrya-style-css'  href='wp-content/themes/ostrya/style41a3.css?ver=5.8' type='text/css' media='all' />
+<style id='ostrya-style-inline-css' type='text/css'>
+.btn, button,.button,html input[type='button'], input[type='reset'], input[type='submit'],input.button,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.service-link a,.portfolio-link a,.header-button,.wdc-pricingbox .box-link a,.more-link a,.woocommerce .widget_price_filter .price_slider_amount .button,.woocommerce a.added_to_cart,.wdc-button.style-2:hover,.owl-theme .owl-controls .owl-page.active span,.team-container .team-photo > span::after,.wdc-button.style-1,.wdc-iconbox.style-3 .box-icon,body .vc_progress_bar .vc_single_bar .vc_bar,.widget.widget_tag_cloud a:hover, .widget.widget_product_tag_cloud a:hover,#wp-calendar td#today,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#;}.wdc-heading .box-title::after,.wdc-button.style-2,.owl-theme .owl-controls .owl-page.active span,.post-meta span:not(.post-author)::before,ul.primary-menu > li > a::after,.wdc-services-wgt ul::after,.wdc-services-wgt ul,.wdc-form-1,blockquote, blockquote.pull-left, blockquote.pull-right{border-color:#;}.header-hightlight strong,.wdc-iconbox .box-icon,.wdc-button.style-2,.load-filter li.active a, .load-filter li a:hover,#footer .wdc-social a,#footer a:hover,.breadcrumb > .active,.breadcrumb li:last-child,.wdc-promobox a .box-title,.widget a:hover,.wdc-iconbox .box-link a:hover,.wdc-pricingbox.box-featured .price-cost,.post-title a:hover,.wdc-service .service-container.style-1 .service-icon,.service-content h4 a:hover,.portfolio-container.style-2 .portfolio-content h4 a:hover,.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover,.wdc-services-wgt li a:hover,.post-meta a:hover,.wdc-form-1 .info span.phone-number,.post-navigation a:hover{color:#;}.title-holder { padding-top:80px; }.title-holder { padding-bottom:80px; }#title-wrapper { padding-top:0px; }#content-wrapper.is-vc .post-content > .wpb_padding:first-child { padding-top:80px; }#title-wrapper {background-image:url('../iwebdc.com/demo/ostrya/wp-content/uploads/2016/11/bg-02.jpg');background-repeat:no-repeat;background-size:cover;background-attachment:inherit;background-position:center center;}
+</style>
+<link rel='stylesheet' id='joinchat-css'  href='wp-content/plugins/creame-whatsapp-me/public/css/joinchat.minc1f9.css?ver=4.4.2' type='text/css' media='all' />
+<style id='joinchat-inline-css' type='text/css'>
+.joinchat{ --red:37; --green:211; --blue:102; }
+</style>
+<link rel='stylesheet' id='js_composer_front-css'  href='wp-content/plugins/js_composer/assets/css/js_composer.min31dc.css?ver=6.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='wp-content/plugins/jetpack/css/jetpack2c4c.css?ver=10.9' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min9220.js?ver=8.14.1' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"gecein","hash_tracking":"false","ua":"UA-101227924-1","v4_id":""};/* ]]> */
+</script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.min8993.js?ver=6.3.9' id='tp-tools-js'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.min8993.js?ver=6.3.9' id='revmin-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min77a4.js?ver=2.7.0-wc.6.5.0' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"gecein\/index.php\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.mine6df.js?ver=6.5.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart31dc.js?ver=6.6.0' id='vc_woocommerce-add-to-cart-js-js'></script>
+<script defer type='text/javascript' src='../stats.wp.com/s-202320.js' id='woocommerce-analytics-js'></script>
+
+<link rel="https://api.w.org/" href="index.php/wp-json/index.html" /><link rel="alternate" type="application/json" href="index.php/wp-json/wp/v2/pages/173.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<meta name="generator" content="WooCommerce 6.5.0" />
+<link rel='shortlink' href='index.html' />
+<meta name="generator" content="Site Kit Oleh Google 1.74.0" /><style type='text/css'>img#wpstats{display:none}</style>
+	<link rel="shortcut icon" href="wp-content/uploads/2021/12/Gecein.png" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered Oleh WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered Oleh Slider Revolution 6.3.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementOlehId(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementOlehId(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type="text/css" title="dynamic-css" class="options-output">#footer{background-attachment:fixed;background-position:center center;background-image:url('../iwebdc.com/demo/ostrya/wp-content/uploads/2016/11/bg-4.jpg');}body{font-family:"Open Sans";opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading body{opacity: 0;}.ie.wf-loading body{visibility: hidden;}ul.primary-menu,.mobile-menu{font-family:Montserrat;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading ul.primary-menu,.wf-loading .mobile-menu{opacity: 0;}.ie.wf-loading ul.primary-menu,.ie.wf-loading .mobile-menu{visibility: hidden;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family:Montserrat;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1,.wf-loading  h2,.wf-loading  h3,.wf-loading  h4,.wf-loading  h5,.wf-loading  h6,.wf-loading  .h1,.wf-loading  .h2,.wf-loading  .h3,.wf-loading  .h4,.wf-loading  .h5,.wf-loading  .h6{opacity: 0;}.ie.wf-loading h1,.ie.wf-loading  h2,.ie.wf-loading  h3,.ie.wf-loading  h4,.ie.wf-loading  h5,.ie.wf-loading  h6,.ie.wf-loading  .h1,.ie.wf-loading  .h2,.ie.wf-loading  .h3,.ie.wf-loading  .h4,.ie.wf-loading  .h5,.ie.wf-loading  .h6{visibility: hidden;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1450139176121{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: -35px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1480690325180{padding-top: 50px !important;}.vc_custom_1477547929095{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1471192270839{margin-bottom: 0px !important;padding-top: 60px !important;padding-bottom: 30px !important;}.vc_custom_1480933962325{margin-bottom: 0px !important;padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1555757130164{margin-bottom: 0px !important;padding-top: 50px !important;padding-bottom: 30px !important;background: #009cff url(../iwebdc.com/demo/ostrya/wp-content/uploads/2016/12/pattern3fe69.png?id=304) !important;background-position: 0 0 !important;background-repeat: repeat !important;}.vc_custom_1471198040046{margin-bottom: 0px !important;padding-top: 60px !important;padding-bottom: 30px !important;}.vc_custom_1555757252181{padding-top: 30px !important;padding-bottom: 30px !important;background: #009cff url(#) !important;background-position: 0 0 !important;background-repeat: repeat !important;}.vc_custom_1480689687153{padding-top: 30px !important;}.vc_custom_1480689694769{padding-top: 30px !important;}.vc_custom_1480689702123{padding-top: 30px !important;}.vc_custom_1471340985552{background-color: #f5f5f5 !important;}.vc_custom_1480936918536{margin-bottom: 0px !important;padding-top: 15% !important;padding-right: 10% !important;padding-bottom: 10% !important;padding-left: 10% !important;}.vc_custom_1471344135554{margin: 0px !important;padding: 0px !important;}.vc_custom_1479135358445{margin-bottom: 0px !important;}.vc_custom_1471192675587{margin-bottom: 30px !important;}.vc_custom_1480762080763{padding-top: 50px !important;padding-right: 80px !important;padding-left: 50px !important;}.vc_custom_1480677095808{padding-top: 20px !important;padding-right: 30px !important;padding-bottom: 10px !important;padding-left: 30px !important;background-color: #ffffff !important;border-radius: 10px !important;}.vc_custom_1480676524074{padding-top: 0px !important;padding-bottom: 20px !important;}.vc_custom_1480672250665{padding-top: 10px !important;padding-bottom: 10px !important;background-color: #000000 !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	
+</head>
+
+<body class="home page-template-default page page-id-173 wp-embed-responsive theme-ostrya woocommerce-no-js layout-wide header-style-v2 header-sticky wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
+<div id="wdc-wrapper">
+<!-- header -->
+<header id="header" class="header-skin-default">
+    	
+	<div id="topbar-wrapper">
+	
+	<div class="container">
+	<div class="row">
+	
+		<div class="col-md-8 col-sm-8 col-xs-12">
+		
+			<div class="topbar-left">
+				<ul class="list-inline">
+				<li><span class="topbar-label"><i class="fa  fa-home"></i></span><span class="topbar-hightlight">Jl. Raya Tanjung Pasir Kb. Jahe No. 21 RT. 003 RW. 011 Desa Pangkalan Kec. Teluknaga Kab. Tangerang</span></li><li><span class="topbar-label"><i class="fa fa-envelope-o"></i></span><span class="topbar-hightlight">muhammadindrarizaldi.07@gmail.com</span></li></ul>
+			</div>
+		</div>
+		
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="topbar-right text-right">
+				<div class="wdc-social"><ul class="list-inline"><li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li><li><a class="fa fa-linkedin" href="https://www.linkedin.com/" title="LinkedIn" target="_blank"></a></li><li><a class="fa fa-instagram" href="https://www.instagram.com/" title="Instagram" target="_blank"></a></li></ul></div>			</div>
+		</div>
+	
+	</div>
+	</div>
+	
+</div>	
+	<div id="header-wrapper">
+	
+		<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+			
+				<div class="header-container">
+				
+					<div class="header-logo">
+						<a class="wdc-logo" href="index.html" title="GECEIN IT TECHNICIAN">
+				<img class="logo-standart" src="wp-content/uploads/2021/08/Gecein.png" alt="GECEIN IT TECHNICIAN" />
+			</a>					</div>
+					<a id="toggle-mobile-menu" class="toggle-menu"><span></span></a>
+					
+					<div class="header-right">
+					
+						<div class="header-top">
+							<div class="header-left-info">
+								<ul class="list-inline">
+								<li><span class="header-label"><i class="fa fa-phone"></i></span><span class="header-hightlight"><small>Hubungi Kami</small><strong>0813-8895-4348</strong></span></li><li><span class="header-label"><i class="fa  fa-clock-o"></i></span><span class="header-hightlight"><small>Waktu Kerja</small><strong>Setiap Hari: 10:00 - 21:00</strong></span></li></ul>
+							</div>
+							<!--<div class="header-right-info">
+								<a class="header-button" href="#">Make An Appointment</a></div>-->
+						</div>
+					
+					</div>
+				
+				</div>
+				
+			</div>
+		
+		</div>
+		</div>
+	
+	</div>
+	
+	<div id="nav-wrapper" class="header-stick">
+		
+		<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+				
+				<div class="nav-container">
+					
+					<nav id="primary-nav">
+						<div class="menu-menu-footer-container"><ul id="primary-menu" class="primary-menu list-inline"><li id="menu-item-763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-173 current_page_item menu-item-763"><a href="index.html" aria-current="page">Beranda</a></li>
+<li id="menu-item-834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-834"><a href="#">Tentang Kami</a></li>
+<li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-821"><a href="#">Layanan</a>
+<ul class="sub-menu">
+	<li id="menu-item-820" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-820"><a href="#">Jasa Service Komputer Bergaransi</a></li>
+	<li id="menu-item-823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-823"><a href="#">Jasa Service Laptop Bergaransi</a></li>
+	<li id="menu-item-823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-823"><a href="#">Jasa Service Printer Bergaransi</a></li>
+</ul>
+</li>
+<li id="menu-item-822" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-822"><a href="#">BLog</a></li>
+<li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="index.php/contact-us/index.html">Hubungi Kami</a></li>
+</ul></div></nav>
+				
+					<div class="header-inner">
+						<div class="header-search"><div class="wdc-searchform">
+				<div class="search-form">
+					<form action="#" method="get">
+						<input type="text" name="s" id="s" placeholder="Search..." />
+					</form>
+				</div>
+			</div>
+			<div class="search-icon"><i class="fa fa-search"></i></div></div></div>
+					
+				</div>
+				
+			</div>
+		
+		</div>
+		</div>
+	
+	</div>
+
+</header>
+<!-- end header -->	
+	<!-- main-container -->
+<div id="content-wrapper" class="is-vc">
+
+			
+		<!-- post entry -->
+<article id="post-173" class="page-single post-173 page type-page status-publish hentry">
+	
+		
+	<div class="post-content">
+		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1450139176121 wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+			<!-- START WDC Slider 31 REVOLUTION SLIDER 6.3.9 --><p class="rs-p-wp-fix"></p>
+				<rs-module id="rev_slider_7_1" style="" data-version="6.3.9">
+					<rs-slides>
+						<rs-slide data-key="rs-17" data-title="Slide" data-thumb="gecein/wp-content/uploads/revslider/wdc-slider-one/slide-1-2-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+							<img src="wp-content/uploads/revslider/wdc-slider-one/slide-1-2.jpg" title="slide-1-2.jpg" width="1920" height="1280" data-parallax="5" data-panzoom="d:10000;ss:100;se:110;" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-7-slide-17-layer-2" 
+								data-type="text"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;y:c;yo:3px;"
+								data-text="w:normal;s:24;l:36;fw:300;a:center;"
+								data-dim="w:630px;"
+								data-frame_0="y:20px;"
+								data-frame_1="e:power4.out;st:1600;sp:800;sR:1600;"
+								data-frame_999="y:-20px;o:0;e:power2.inOut;st:w;sR:4600;"
+								style="z-index:7;font-family:Titillium Web;"
+							>Pengelaman Kami Dalam IT Support
+							Troubleshooitng Yang Cepat Dan Tepat
+							<a href="https://api.whatsapp.com/send?phone=6281388954348&amp;text=Halo%20Admin%20saya%20ingin%20bertanya">
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-7-slide-17-layer-12" 
+								class="rev-btn"
+								data-type="button"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;y:c;yo:98px;"
+								data-text="s:18;l:18;fw:600;"
+								data-padding="t:15;r:12;b:15;l:12;"
+								data-border="bor:4px,4px,4px,4px;"
+								data-frame_0="y:20px;"
+								data-frame_1="e:power4.out;st:2250;sp:800;sR:2250;"
+								data-frame_999="y:-20px;o:0;e:power2.inOut;st:w;sR:3950;"
+								data-frame_hover="c:#3f6bbe;bgc:#fff;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;e:power1.in;"
+								style="z-index:8;background-color:rgba(0,156,255,0.8);font-family:Titillium Web;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+							>Lanjut</a>
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-7-slide-17-layer-14" 
+								class="tp-shape tp-shapewrapper"
+								data-type="shape"
+								data-xy="x:c;y:c;"
+								data-text="fw:300;a:inherit;"
+								data-dim="w:100%;h:100%;"
+								data-basealign="slide"
+								data-rsp_bd="off"
+								data-frame_999="o:0;st:w;sR:6700;"
+								style="z-index:5;background-color:rgba(0,0,0,0.5);"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-7-slide-17-layer-15" 
+								class="NotGeneric-Title"
+								data-type="text"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;y:c;yo:-100px;"
+								data-text="s:70;l:70;fw:800;a:inherit;"
+								data-frame_1="st:1150;sp:800;sR:1150;"
+								data-frame_999="o:0;st:w;sR:5050;"
+								style="z-index:6;font-family:Raleway;"
+							>7 Tahun Berpengalaman 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_7_1',rl:[1240,1024,778,480],el:[500],gw:[1170],gh:[500],type:'standard',justify:'',layout:'fullwidth',mh:"500"});
+					var	revapi7,
+						tpj;
+					function revinit_revslider71() {
+					jQuery(function() {
+						tpj = jQuery;
+						revapi7 = tpj("#rev_slider_7_1");
+						if(revapi7==undefined || revapi7.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_7_1");
+						}else{
+							revapi7.revolution({
+								sliderLayout:"fullwidth",
+								duration:7000,
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1170,
+								gridheight:500,
+								minHeight:500,
+								spinner:"spinner3",
+								perspective:600,
+								perspectiveType:"local",
+								editorheight:"500,500,500,500",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									mouseScrollNavigation:false,
+									wheelCallDelay:1000,
+									onHoverStop:false,
+									touch: {
+										touchenabled:true
+									},
+									arrows: {
+										enable:true,
+										style:"select-nav-light",
+										hide_onmobile:true,
+										hide_under:767,
+										left: {
+
+										},
+										right: {
+
+										}
+									}
+								},
+								parallax: {
+									levels:[5,10,15,20,25,30,35,40,-15,-20,-25,-30,-35,-40,-45,55],
+									type:"scroll",
+									origo:"slidercenter"
+								},
+								viewPort: {
+									enable:true,
+									visible_area:"50%"
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+					} // End of RevInitScript
+				var once_revslider71 = false;
+				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider71 ) { once_revslider71 = true; revinit_revslider71();}});} else {once_revslider71 = true; revinit_revslider71();}
+				</script>
+				<script>
+					var htmlDivCss = '	#rev_slider_7_1_wrapper rs-loader.spinner3 div { background-color: #FFFFFF !important; } ';
+					var htmlDiv = document.getElementOlehId('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsOlehTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+				<script>
+					var htmlDivCss = unescape(".select-nav-light.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Atransparent%3B%0A%09min-width%3A%2075px%3B%0A%20%20%20%20min-height%3A%2080px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20-webkit-transition%3A%20background-color%200.2s%20ease-out%2C%20border-color%200.2s%20ease-out%3B%0A%20%20%20%20-moz-transition%3A%20background-color%200.2s%20ease-out%2C%20border-color%200.2s%20ease-out%3B%0A%20%20%20%20transition%3A%20background-color%200.2s%20ease-out%2C%20border-color%200.2s%20ease-out%3B%0A%7D%0A%0A.select-nav-light.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22fontawesome%22%3B%0A%09font-size%3A%2072px%3B%0A%20%20%20%20line-height%3A%2077px%3B%0A%09color%3A%20%23fff%3B%0A%09display%3A%20block%3B%0A%09text-align%3A%20center%3B%0A%20%20%20%20-webkit-transition%3A%20color%200.2s%20ease-out%3B%0A%20%20%20%20-moz-transition%3A%20color%200.2s%20ease-out%3B%0A%20%20%20%20transition%3A%20color%200.2s%20ease-out%3B%0A%20%20%20%20z-index%3A2%3B%0A%20%20%20%20position%3Arelative%3B%0A%7D%0A%0A.select-nav-light.tparrows%3Ahover%3Abefore%20%7B%0A%09color%3A%20rgba%28255%2C255%2C255%2C0.8%29%3B%0A%7D%0A%0A.select-nav-light.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Cf104%22%3B%0A%20%20%20%20-webkit-transition%3A%20transform%200.15s%20ease-out%3B%0A%20%20%20%20-moz-transition%3A%20transform%200.15s%20ease-out%3B%0A%20%20%20%20transition%3A%20transform%200.15s%20ease-out%3B%0A%7D%0A%0A.select-nav-light.tparrows.tp-leftarrow%3Ahover%3Abefore%20%7B%0A%09transform%3A%20translateX%28-5px%29%3B%0A%7D%0A%0A.select-nav-light.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Cf105%22%3B%0A%20%20%20%20-webkit-transition%3A%20transform%200.15s%20ease-out%3B%0A%20%20%20%20-moz-transition%3A%20transform%200.15s%20ease-out%3B%0A%20%20%20%20transition%3A%20transform%200.15s%20ease-out%3B%0A%7D%0A%0A.select-nav-light.tparrows.tp-rightarrow%3Ahover%3Abefore%20%7B%0A%09transform%3A%20translateX%285px%29%3B%20%20%20%20%0A%7D%0A");
+					var htmlDiv = document.getElementOlehId('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsOlehTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+				<script>
+					var htmlDivCss = unescape("%0A%0A%0A");
+					var htmlDiv = document.getElementOlehId('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsOlehTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div><div class="vc_empty_space"   style="height: 4.37em"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><section class="vc_section"><div  class="vc_row wpb_row vc_row-fluid wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><b>GECEIN IT TECHNICIAN</b></p>
+<p><span style="font-weight: 400;">Gecein IT Technician adalah suatu layanan Service komputer, Laptop, dan Printer. kami melayani kebutuhan IT rumah, perkantoran, maupun pemerintahan. Dari 2015 hingga saat ini kami fokus dan bertekat sebagai mitra IT yang teguh dengan pelayanan yang baik, tanggung jawab, solusi, serta kepuasan mitra bisnis adalah keutamaan dan juga jaminan services bergaransi.</span></p>
+<p><span style="font-weight: 400;">Gecein IT Technician melayani  Service komputer, Laptop, dan Printer serta kebutuhan IT lainnya untuk wilayah Tangerang dan sekitarnya.</span></p>
+<p><b>–  Jasa Service Komputer Meliputi</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Install Windows</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Fix Bluescrren Error</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Windows Lambat</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Clean Virus</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Windows Hang (Crash)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Remove Password Windows</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Install Microsoft Office</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Install Antivirus License dan lain sebagai nya</span></li>
+</ul>
+<p><b>– Jasa Service Komputer Laptop</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Replace LCD</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Replace Keyboard</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Overheat Procesor</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Flexibel LCD</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Batrai Drop</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tambah Thermal (Pasta)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Bios Mati</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Replace Hard Drive</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">IC Power</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Service Charger</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Upgrade RAM</span></li>
+</ul>
+<p><b> –  JASA SERVICE PRINTER</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Printer Macet</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Reset Epson L series</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Service Printer All Type</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Blinking</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sharing Wireless</span></li>
+</ul>
+		</div>
+	</div>
+</div></div></div></div></div></div></section><div  class="vc_row wpb_row vc_row-fluid vc_custom_1480690325180 wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wdc-heading style-1 text-center"><h3 class="box-title">Mengapa Memilih Kami</h3><div class="box-content">Layanan perbaikan tercepat dengan harga terbaik!</div></div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1480689687153"><div class="wpb_wrapper"><div class="wdc-iconbox style-3"><div class="iconbox-container"><div class="box-content"><h4 class="box-title"><br><br>Tanpa Perbaikan Tanpa Biaya</h4><div><br/>
+Kami sangat yakin dengan layanan kami sehingga jika kami tidak dapat memperbaiki masalah, Anda tidak perlu membayar. Semua perbaikan datang dengan garansi 30 hari.</div><div class="box-link"><a href="#" target="">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1480689694769"><div class="wpb_wrapper"><div class="wdc-iconbox style-3"><div class="iconbox-container"><div class="box-content"><h4 class="box-title"><br><br>Proses Perbaikan Cepat</h4><div>Kami dapat diandalkan, dan pekerjaan kami dipercaya. Kami menyediakan layanan tanpa rasa khawatir yang selalu dapat Anda andalkan.</div><div class="box-link"><a href="#" target="">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1480689702123"><div class="wpb_wrapper"><div class="wdc-iconbox style-3"><div class="iconbox-container"><div class="box-content"><h4 class="box-title"><br><br>Garansi 30 Hari</h4><div>Jika Anda memiliki masalah yang berulang, ambil dan perbaiki secara gratis*!</div><div class="box-link"><a href="#" target="">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div></div></div></div></div></div></div></div></div></div></div><div  class="vc_row wpb_row vc_row-fluid vc_custom_1477547929095 wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1471340985552 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1480936918536"><div class="wpb_wrapper"><div class="wdc-heading style-1 text-left"><h3 class="box-title">Siapa Kami</h3><div class="box-content">Gecein IT Technician adalah Layanan Service Komputer, khusus dalam Perbaikan dan Layanan Komputer serta Kebutuh IT lain Nya yang bergaransi.</div></div><div class="vc_empty_space"   style="height: 15px"><span class="vc_empty_space_inner"></span></div><a class="wdc-button style-1 size-medium" href="#" target=""><span>Lihat Layanan</span></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1471344135554"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1479135358445">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1024" height="683" src="wp-content/uploads/2016/11/service-02.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy"/></div>
+		</figure>
+	</div>
+</div></div></div></div></div></div></div></div></div></div><div  class="vc_row wpb_row vc_row-fluid vc_custom_1471192270839 wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1471192675587"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wdc-heading style-1 text-center"><h3 class="box-title">Pelayanan Kami</h3><div class="box-content">Kami adalah salah satu penyedia layanan perbaikan komputer, laptop dan printer terbaik di Tangerang dan memperbaiki sistem komputer Anda di rumah / kantor dengan harga yang sangat terjangkau.</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="wdc-service"><div class="load-filter"><ul id="load-filter" class="list-unstyled"><li class="active"><a href="#" data-filter="*">BLOG</a></li></ul></div><div class="serviceHolder row" data-layout="fitRows"><div class="post-item col-md-4 col-sm-6 col-xs-12 software"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/service-01-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy" /></a></div><div class="service-content"><h4><a href="#">PENCADANGAN & PEMULIHAN DATA</a></h4><div>Data backup dan recovery merupakan proses untuk membuat salinan data sebagai upaya mencegah kehilangan dan menyiapkan sistem yang aman sehingga nantinya data bisa kembali dipulihkan. Data backup memerlukan copy dan pengarsipan data komputer agar dapat diakses jika terjadi kerusakan atau data dihapus.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div><div class="post-item col-md-4 col-sm-6 col-xs-12 laptop"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/service-02-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy"/></a></div><div class="service-content"><h4><a href="#">PERBAIKAN LAPTOP</a></h4><div>Perbaikan laptop artinya adalah suatu proses pemulihan sistem yang bermasalah agar bisa pulih seperti sedia kala. Perbaikan pada laptop dilakukan akibat adanya serangan virus atau malware yang menyerang sistem komputer dan menimbulkan kerusakan yang cukup parah.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div><div class="post-item col-md-4 col-sm-6 col-xs-12 hardware"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/service-03-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy"/></a></div><div class="service-content"><h4><a href="#">Perbaikan Komputer</a></h4><div>Perbaikan komputer adalah proses memperbaiki hardware atau software yang mengalami kerusakan sehingga fungsinya dapat kembali bekerja sesuai dengan fungsinya.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div><div class="post-item col-md-4 col-sm-6 col-xs-12 hardware"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/service-04-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy"/></a></div><div class="service-content"><h4><a href="#">Penghapusan Virus & Spyware</a></h4><div>Menghapus virus komputer atau spyware akan sulit tanpa bantuan alat penghapusan perangkat lunak berbahaya. Beberapa virus komputer dan perangkat lunak yang tidak diinginkan lainnya dapat menginstal ulang diri setelah virus dan spyware dideteksi dan dihapus. Untungnya, dengan memperbarui komputer dan menggunakan alat menghapus perangkat lunak berbahaya, Anda bisa menghapus perangkat lunak yang tidak diinginkan selamanya.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div><div class="post-item col-md-4 col-sm-6 col-xs-12 network-support"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/service-05-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy"/></a></div><div class="service-content"><h4><a href="#">PEMBARUAN PERANGKAT LUNAK</a></h4><div>Pembaruan perangkat lunak (software update) adalah sebuah fitur yang memungkinkan perangkat untuk memperbarui perangkat lunak sistem dan aplikasi bawaan ke versi terbaru.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div><div class="post-item col-md-4 col-sm-6 col-xs-12 laptop"><div class="service-container style-2"><div class="service-image"><a href="#"><img width="600" height="400" src="wp-content/uploads/2016/11/project-03-600x400.jpg" class="attachment-ostrya-service size-ostrya-service wp-post-image" alt="" loading="lazy"/></a></div><div class="service-content"><h4><a href="#">PEMECAHAN MASALAH JARINGAN</a></h4><div>Pemecahan masalah jaringan adalah serangkaian tindakan kolektif yang diambil dan proses yang digunakan untuk mengidentifikasi, mendiagnosis, dan menyelesaikan masalah dan masalah di seluruh sistem jaringan komputer. Ini adalah proses sistematis yang dilakukan terutama oleh insinyur atau administrator jaringan untuk memperbaiki infrastruktur jaringan, memulihkan, atau mengoptimalkan layanan jaringan. Biasanya diperlukan untuk memulihkan dan membuat koneksi jaringan atau Internet dan menyelesaikan masalah aplikasi yang mencakup elemen jaringan utama hingga ke pengguna akhir.</div><div class="service-link"><a href="#">Baca Selengkapnya</a></div></div><div class="clearfix"></div></div></div></div></div></div></div></div></div></div></div><div data-vc-parallax="1.5" data-vc-parallax-image=""  style="color:#000000;" class="vc_row wpb_row vc_row-fluid vc_custom_1480933962325 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving wpb_section wpb_padding wpb_color"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-heading style-1 text-center"><h3 class="box-title">Portofolio Kami</h3><div class="box-content">Semua jenis layanan dibawah satu naungan</div></div><div class="vc_empty_space"   style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="wdc-portfolio"><div class="portfolioHolder portfoliofbb101ce7dcd4ba33ae5601f31837887 row" data-layout="fitRows"><article class="post-item col-md-4 col-sm-6 col-xs-12 networking"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400" src="wp-content/uploads/2016/11/project-01-600x400.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 01</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article><article class="post-item col-md-4 col-sm-6 col-xs-12 commercial"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400" src="wp-content/uploads/2016/11/project-02-600x400.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 02</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article><article class="post-item col-md-4 col-sm-6 col-xs-12 commercial"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400" src="wp-content/uploads/2016/11/project-03-600x400.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 03</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article><article class="post-item col-md-4 col-sm-6 col-xs-12 residential"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400" src="wp-content/uploads/2016/11/project-04-600x400.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 04</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article><article class="post-item col-md-4 col-sm-6 col-xs-12 commercial"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400" src="wp-content/uploads/2016/11/project-05-600x400.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 05</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article><article class="post-item col-md-4 col-sm-6 col-xs-12 it-security networking"><div class="portfolio-container style-1"><div class="portfolio-image"><img width="600" height="400"
+	src="wp-content/uploads/2016/11/project-06.jpg" class="attachment-ostrya-portfolio size-ostrya-portfolio wp-post-image" alt="" loading="lazy"/><div class="zoom-overlay"></div></div><div class="portfolio-content"><h4>Portofolio 06</h4><div class="portfolio-link"><a href="#">Lihat Portofolio</a></div></div><div class="clearfix"></div></div></article></div></div></div></div></div></div></div></div><div  style="color:#ffffff;" class="vc_row wpb_row vc_row-fluid vc_custom_1555757130164 vc_row-has-fill wpb_section wpb_padding wpb_color"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-counter style-icon icon-top"><div class="box-icon"><span><i class="fa fa-smile-o"></i></span></div><div class="box-inner"><div class="counter-number" data-to="3585">0</div><h4 class="box-title">Pelanggan Puas</h4></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-counter style-icon icon-top"><div class="box-icon"><span><i class="fa fa-laptop"></i></span></div><div class="box-inner"><div class="counter-number" data-to="1750">0</div><h4 class="box-title">Laptop Diperbaiki</h4></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-counter style-icon icon-top"><div class="box-icon"><span><i class="fa fa-desktop"></i></span></div><div class="box-inner"><div class="counter-number" data-to="675">0</div><h4 class="box-title">Komputer Diperbaiki</h4></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-counter style-icon icon-top"><div class="box-icon"><span><i class="fa fa-windows"></i></span></div><div class="box-inner"><div class="counter-number" data-to="1225">0</div><h4 class="box-title">Instalasi Sistem Operasi</h4></div></div></div></div></div></div></div></div><div  class="vc_row wpb_row vc_row-fluid vc_custom_1471198040046 wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wdc-heading style-1 text-left"><h3 class="box-title">Terbaru dari Blog Kami</h3></div>
+<div class="wdc-blog">    
+	<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="blog-container">
+								<div class="post-thumb"><a href="#" title="%s"><img width="600" height="400" src="wp-content/uploads/2016/11/post-07-600x400.jpg" class="attachment-ostrya-small size-ostrya-small wp-post-image" alt="" loading="lazy" /></a></div>
+								<div class="blog-inner">
+                	<span class="post-category"><em>in</em><a href="#" rel="category tag">Maintenance</a></span>
+					<h4 class="post-title"><a href="#" title="Why Your Computer Hates You">Mengapa komputer anda sering bermasalah?</a></h4>
+                    <div class="post-meta">
+                        <span class="post-author"><em>Oleh</em><a href="#" title="Posts Oleh Indra Rizaldi" rel="author">Indra Rizaldi</a></span>
+                                                <span class="post-comment"><a href="#">Belum ada komentar</a></span>
+                    </div>
+					<div class="post-excerpt">
+						<p>Komputer adalah perangkat elektronik yang terdiri dari hardware (perangkat keras) dan software (perangkat lunak). Permasalahan komputer yang muncul bisa terkait dengan hardware atau software atau bisa faktor keduanya. Tingkatan permasalah komputer bisa bervariasi dari level yang ringan sampai dengan yang berat. Solusi atau perbaikan yang dilakukan terkadang tidak cukup pada satu hal, tetapi bisa pada beberapa hal berbeda.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="blog-container">
+				<div class="post-thumb"><a href="#" title="%s"><img width="600" height="400" src="wp-content/uploads/2016/11/post-08-1200x800.jpg" class="attachment-ostrya-small size-ostrya-small wp-post-image" alt="" loading="lazy" /></a></div>
+								<div class="blog-inner">
+                	<span class="post-category"><em>in</em><a href="#" rel="category tag">Maintenance</a></span>
+					<h4 class="post-title"><a href="#" title="How To Install a Motherboard and CPU">Cara Memasang Motherboard dan CPU</a></h4>
+                    <div class="post-meta">
+                        <span class="post-author"><em>Oleh</em><a href="#" title="Posts Oleh Indra Rizaldi" rel="author">Indra Rizaldi</a></span>
+                                                <span class="post-comment"><a href="#">Belum ada komentar</a></span>
+                    </div>
+					<div class="post-excerpt">
+						<p>Bongkar dan pasang komponen komputer atau laptop biasa dilakukan oleh teknisi profesional komputer. Namun, bukan berarti Kamu tidak bisa melakukannya terlebih untuk masalah sepele seperti memasang motherboard ke casing CPU PC.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="blog-container">
+								<div class="post-thumb"><a href="#" title="%s"><img width="600" height="400" src="wp-content/uploads/2016/11/post-06-600x400.jpg" class="attachment-ostrya-small size-ostrya-small wp-post-image" alt="" loading="lazy" /></a></div>
+								<div class="blog-inner">
+                	<span class="post-category"><em>in</em><a href="#" rel="category tag">Repair &amp; Service</a></span>
+					<h4 class="post-title"><a href="#" title="Easy Tips To Computer Repair">5 Cara Mudah Memperbaiki Sebagian Besar Masalah Komputer</a></h4>
+                    <div class="post-meta">
+                        <span class="post-author"><em>Oleh</em><a href="#" title="Posts Oleh Indra Rizaldi" rel="author">Indra Rizaldi</a></span>
+                                                <span class="post-comment"><a href="#">Belum ada komentar</a></span>
+                    </div>
+					<div class="post-excerpt">
+						<p>Untuk orang awam atau teknisi komputer yang berpengalaman sekalipun, dugaan pada permasalahan komputer bisa tidak tepat atau meleset. Mereka bisa saja memberi opsi perbaikan yang juga bisa keliru. Permasalah komputer yang sederhana bisa dianggap serius, demikian juga sebaliknya. Orang awam mungkin akan lebih cepat memutuskan untuk membawa ke jasa perbaikan komputer.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>		
+</div>
+</div></div></div></div></div></div>
+<div  class="vc_row wpb_row vc_row-fluid vc_custom_1555757252181 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex wpb_section wpb_padding"><div class="container"><div class="row"><div class="wpb_column vc_column_container"><div class="vc_column-inner vc_custom_1480762080763"><div class="wpb_wrapper"><h3 style="font-size: 32px;color: #ffffff;text-align: center" class="vc_custom_heading" >Semua Merek</h3><h3 style="font-size: 48px;color: #ffffff;text-align: center" class="vc_custom_heading vc_custom_1480676524074" >Perbaikan & Layanan</h3>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><span style="color: #ffffff;">Hidup tanpa PC, laptop & printer kita tidak terbayangkan! Jadi jika ini bermasalah dengan perangkat keras atau perangkat lunak dan Anda bertanya-tanya siapa yang akan segera memperbaiki PC saya, kami akan menyelesaikan semuanya. Dari layanan perbaikan komputer, layanan perbaikan laptop hingga layanan perbaikan printer kami akan mendeteksi semua masalah dan menyelesaikan semuanya mulai dari instalasi perangkat lunak hingga perbaikan mperangkat keras.</span></p>
+		</div>
+	</div>
+</div></div></div>
+</article>
+<!-- end post entry -->		   
+			
+
+</div>
+<!-- end main-container -->
+	<!-- footer -->
+	<footer id="footer">		
+			<div id="copyright-wrapper">
+				
+			<div class="container">
+			<div class="row">
+			
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div>&copy; Copyright <script>document.write(new Date().getFullYear())</script>. <a href="#">Gecein IT Technician</a> </div>					
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<nav id="secondary-nav" class="text-right">
+				</nav>
+				</div>
+											
+			</div>
+			</div>
+			
+		</div>
+				
+	</footer>
+	<!-- end footer -->
+	
+</div>
+<!-- end .wrap -->
+
+<div class="scrollTop"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
+
+
+<div class="joinchat joinchat--right" data-settings='{"telephone":"6281388954348","mobile_only":false,"button_delay":3,"whatsapp_web":true,"qr":false,"message_views":2,"message_delay":10,"message_badge":true,"message_send":"Halo Admin, saya ingin bertanya","gads":"","message_hash":"9728a166"}'>
+	<div class="joinchat__button">
+		<div class="joinchat__button__open"></div>
+											<div class="joinchat__button__sendtext">Kirim Pesan</div>
+						<svg class="joinchat__button__send" width="60" height="60" viewbox="0 0 400 400" stroke-linecap="round" stroke-width="33">
+				<path class="joinchat_svg__plain" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"/>
+				<path class="joinchat_svg__chat" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"/>
+			</svg>
+							<div class="joinchat__badge">1</div>
+										<div class="joinchat__tooltip"><div>Butuh Bantuan ?</div></div>
+					</div>
+			<div class="joinchat__box">
+			<div class="joinchat__header">
+			<svg class="joinchat__wa" width="120" height="28" viewBox="0 0 120 28"><title>WhatsApp</title><path d="M117.2 17c0 .4-.2.7-.4 1-.1.3-.4.5-.7.7l-1 .2c-.5 0-.9 0-1.2-.2l-.7-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1l.7-.7a2 2 0 0 1 1.1-.3 2 2 0 0 1 1.8 1l.4 1a5.3 5.3 0 0 1 0 2.3zm2.5-3c-.1-.7-.4-1.3-.8-1.7a4 4 0 0 0-1.3-1.2c-.6-.3-1.3-.4-2-.4-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11H110v13h2.7v-4.5c.4.4.8.8 1.3 1 .5.3 1 .4 1.6.4a4 4 0 0 0 3.2-1.5c.4-.5.7-1 .8-1.6.2-.6.3-1.2.3-1.9s0-1.3-.3-2zm-13.1 3c0 .4-.2.7-.4 1l-.7.7-1.1.2c-.4 0-.8 0-1-.2-.4-.2-.6-.4-.8-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1 .1-.3.4-.5.7-.7a2 2 0 0 1 1-.3 2 2 0 0 1 1.9 1l.4 1a5.4 5.4 0 0 1 0 2.3zm1.7-4.7a4 4 0 0 0-3.3-1.6c-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11h-2.6v13h2.7v-4.5c.3.4.7.8 1.2 1 .6.3 1.1.4 1.7.4a4 4 0 0 0 3.2-1.5c.4-.5.6-1 .8-1.6.2-.6.3-1.2.3-1.9s-.1-1.3-.3-2c-.2-.6-.4-1.2-.8-1.6zm-17.5 3.2l1.7-5 1.7 5h-3.4zm.2-8.2l-5 13.4h3l1-3h5l1 3h3L94 7.3h-3zm-5.3 9.1l-.6-.8-1-.5a11.6 11.6 0 0 0-2.3-.5l-1-.3a2 2 0 0 1-.6-.3.7.7 0 0 1-.3-.6c0-.2 0-.4.2-.5l.3-.3h.5l.5-.1c.5 0 .9 0 1.2.3.4.1.6.5.6 1h2.5c0-.6-.2-1.1-.4-1.5a3 3 0 0 0-1-1 4 4 0 0 0-1.3-.5 7.7 7.7 0 0 0-3 0c-.6.1-1 .3-1.4.5l-1 1a3 3 0 0 0-.4 1.5 2 2 0 0 0 1 1.8l1 .5 1.1.3 2.2.6c.6.2.8.5.8 1l-.1.5-.4.4a2 2 0 0 1-.6.2 2.8 2.8 0 0 1-1.4 0 2 2 0 0 1-.6-.3l-.5-.5-.2-.8H77c0 .7.2 1.2.5 1.6.2.5.6.8 1 1 .4.3.9.5 1.4.6a8 8 0 0 0 3.3 0c.5 0 1-.2 1.4-.5a3 3 0 0 0 1-1c.3-.5.4-1 .4-1.6 0-.5 0-.9-.3-1.2zM74.7 8h-2.6v3h-1.7v1.7h1.7v5.8c0 .5 0 .9.2 1.2l.7.7 1 .3a7.8 7.8 0 0 0 2 0h.7v-2.1a3.4 3.4 0 0 1-.8 0l-1-.1-.2-1v-4.8h2V11h-2V8zm-7.6 9v.5l-.3.8-.7.6c-.2.2-.7.2-1.2.2h-.6l-.5-.2a1 1 0 0 1-.4-.4l-.1-.6.1-.6.4-.4.5-.3a4.8 4.8 0 0 1 1.2-.2 8.3 8.3 0 0 0 1.2-.2l.4-.3v1zm2.6 1.5v-5c0-.6 0-1.1-.3-1.5l-1-.8-1.4-.4a10.9 10.9 0 0 0-3.1 0l-1.5.6c-.4.2-.7.6-1 1a3 3 0 0 0-.5 1.5h2.7c0-.5.2-.9.5-1a2 2 0 0 1 1.3-.4h.6l.6.2.3.4.2.7c0 .3 0 .5-.3.6-.1.2-.4.3-.7.4l-1 .1a21.9 21.9 0 0 0-2.4.4l-1 .5c-.3.2-.6.5-.8.9-.2.3-.3.8-.3 1.3s.1 1 .3 1.3c.1.4.4.7.7 1l1 .4c.4.2.9.2 1.3.2a6 6 0 0 0 1.8-.2c.6-.2 1-.5 1.5-1a4 4 0 0 0 .2 1H70l-.3-1v-1.2zm-11-6.7c-.2-.4-.6-.6-1-.8-.5-.2-1-.3-1.8-.3-.5 0-1 .1-1.5.4a3 3 0 0 0-1.3 1.2v-5h-2.7v13.4H53v-5.1c0-1 .2-1.7.5-2.2.3-.4.9-.6 1.6-.6.6 0 1 .2 1.3.6.3.4.4 1 .4 1.8v5.5h2.7v-6c0-.6 0-1.2-.2-1.6 0-.5-.3-1-.5-1.3zm-14 4.7l-2.3-9.2h-2.8l-2.3 9-2.2-9h-3l3.6 13.4h3l2.2-9.2 2.3 9.2h3l3.6-13.4h-3l-2.1 9.2zm-24.5.2L18 15.6c-.3-.1-.6-.2-.8.2A20 20 0 0 1 16 17c-.2.2-.4.3-.7.1-.4-.2-1.5-.5-2.8-1.7-1-1-1.7-2-2-2.4-.1-.4 0-.5.2-.7l.5-.6.4-.6v-.6L10.4 8c-.3-.6-.6-.5-.8-.6H9c-.2 0-.6.1-.9.5C7.8 8.2 7 9 7 10.7c0 1.7 1.3 3.4 1.4 3.6.2.3 2.5 3.7 6 5.2l1.9.8c.8.2 1.6.2 2.2.1.6-.1 2-.8 2.3-1.6.3-.9.3-1.5.2-1.7l-.7-.4zM14 25.3c-2 0-4-.5-5.8-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.5A11.5 11.5 0 0 1 22.1 5.7 11.5 11.5 0 0 1 14 25.3zM14 0A13.8 13.8 0 0 0 2 20.7L0 28l7.3-2A13.8 13.8 0 1 0 14 0z"/></svg>
+			<div class="joinchat__close" aria-label="Close"></div>
+			</div>
+			<div class="joinchat__box__scroll">
+				<div class="joinchat__box__content">
+					<div class="joinchat__message">Hallo</div>				</div>
+			</div>
+		</div>
+		<svg height="0" width="0"><defs><clipPath id="joinchat__message__peak"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"/></clipPath></defs></svg>
+	</div>
+<script type="text/html" id="wpb-modifications"></script><link href="https://fonts.googleapis.com/css?family=Titillium+Web:300%2C600%7COpen+Sans:300%7CRoboto:400%7CRaleway:800" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+			<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				var slider = document.getElementOlehId(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+		</script>
+<link rel='stylesheet' id='vc_google_fonts_roboto100100italic300300italicregularitalic500500italic700700italic900900italic-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;ver=6.6.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.minb36a.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"gecein\/index.php\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index7661.js?ver=5.4.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='wp-content/plugins/twenty20/assets/js/jquery.twenty200322.js?ver=1.5.8' id='twenty20-style-js'></script>
+<script type='text/javascript' src='wp-content/plugins/twenty20/assets/js/jquery.event.move0322.js?ver=1.5.8' id='twenty20-eventmove-style-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.mindf1a.js?ver=2.1.4-wc.6.5.0' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.mine6df.js?ver=6.5.0' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_86219d893f472a509c91989abaea96d9","fragment_name":"wc_fragments_86219d893f472a509c91989abaea96d9","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.mine6df.js?ver=6.5.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-after'>
+		jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+			var jetpackLazyImagesLoadEvent;
+			try {
+				jetpackLazyImagesLoadEvent = new Event( 'jetpack-lazy-images-load', {
+					bubbles: true,
+					cancelable: true
+				} );
+			} catch ( e ) {
+				jetpackLazyImagesLoadEvent = document.createEvent( 'Event' )
+				jetpackLazyImagesLoadEvent.initEvent( 'jetpack-lazy-images-load', true, true );
+			}
+			jQuery( 'body' ).get( 0 ).dispatchEvent( jetpackLazyImagesLoadEvent );
+		} );
+		
+</script>
+<script type='text/javascript' id='mailchimp-woocommerce-js-extra'>
+/* <![CDATA[ */
+var mailchimp_public_data = {"site_url":"gecein","ajax_url":"gecein\/wp-admin\/admin-ajax.php","disable_carts":"","subscribers_only":"","language":"en","allowed_to_set_cookies":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min91e3.js?ver=2.6.2.01' id='mailchimp-woocommerce-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/bootstrap.min.js' id='bootstrap-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.fitvids.js' id='fitvids-js'></script>
+<script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min31dc.js?ver=6.6.0' id='isotope-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.owl.carousel.min.js' id='owl.carousel-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.wow.min.js' id='wow-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.waypoints.min.js' id='waypoints-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.countdown.min.js' id='countdown-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/jquery.parallax.js' id='parallax-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.min08e1.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-migrate.min41a3.js?ver=5.8' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.minbd77.js?ver=3.1.6-wc.6.5.0' id='prettyPhoto-js'></script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/scripts.js' id='ostrya-script-js'></script>
+<script type='text/javascript' src='wp-content/plugins/creame-whatsapp-me/public/js/joinchat.minc1f9.js?ver=4.4.2' id='joinchat-js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min41a3.js?ver=5.8' id='wp-embed-js'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min31dc.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min31dc.js?ver=6.6.0' id='vc_jquery_skrollr_js-js'></script>
+<script type='text/javascript' id='ostrya-js-extra'>
+/* <![CDATA[ */
+var ostryaShortCode = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/ostrya/assets/js/vc_gmap8a54.js?ver=1.0.0' id='ostrya-js'></script>
+<script src='../stats.wp.com/e-202320.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:10.9',blog:'198173979',post:'173',tz:'0',srv:'gecein'} ]);
+	_stq.push([ 'clickTrackerInit', '198173979', '173' ]);
+</script>
+</body>
+
+<!-- Mirrored from gecein/ Oleh HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 May 2023 04:35:03 GMT -->
+</html>
+<!-- Page generated Oleh LiteSpeed Cache 4.6 on 2023-05-16 14:58:16 -->
